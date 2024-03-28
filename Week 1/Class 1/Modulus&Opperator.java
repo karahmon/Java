@@ -35,7 +35,30 @@ class Main {
 		System.out.println(y);
 
 		//Relational Operators (==,!=,>,<,>=,<=,)
-		int m=10,n=10,q=17
+		int m=10,n=10;
+		System.out.println(m==n); //checks if value of both is equal
+		System.out.println(m!=n);
+		System.out.println(m<n);
+		System.out.println(m>n);
+		System.out.println(m>=n);
+		System.out.println(m<=n);
+		System.out.println('5'==5);
+		System.out.println(5.0==5); // will be true as both value is same
 
-	}
-}
+		//Logical Operators (&&,||,!)
+		int g=10,h=15;
+		System.out.println(g<h && g!=15);//if both correct will print true
+		System.out.println(g<h || g==15);//if one correct will print true
+		System.out.println(!(g<h && g!=15));// negation of the operation
+
+		//Unary Operator (++,--)
+		int k=10,l=30,r=40,s=50;
+		k++;//post execution increases the value
+		l--;//post execution decreases the value
+		++r;//pre execution increases the value
+		--s;//pre execution decreases the value
+		System.out.println(k);
+		System.out.println(l);
+		System.out.println(r);
+		System.out.println(s);
+}};
